@@ -55,10 +55,84 @@
     // }
 
 
-    for (let i = 0; i <= 50; i += 1) {
-        console.log(`this is my ${i} excercise(s)`);
+    // for (let i = 0; i <= 50; i += 1) {
+    //     console.log(`this is my ${i} excercise(s)`);
 
-        if (i === 25) {
-            break;
+    //     if (i === 25) {
+    //         break;
+    //     }
+    // }
+
+    // const number = 10;
+    // for (let i = 0; i < number; i += 1) {
+    //   if (i % 2 === 0) {
+    //     continue;
+    //   }
+    //   console.log('odd i: ', i); // 1, 3, 5, 7, 9
+    // }
+
+    // const number = 20;
+    // for (let i = 1; i <= number; i += 1) {
+    //   if (i === 6) {
+    //     continue;
+    //   }
+    //   if (i === 11) {
+    //     continue;
+    //   }
+    //   if (i === 19) {
+    //     continue;
+    //   }
+    //   console.log('number of i: ', i);
+    // }
+
+//     let i = 0
+// while (i<5) {
+// i++
+// console.log(i)
+// }
+
+// let q = 0
+// do {q++
+//     console.log(q) }
+// while (q<5) {
+// }
+
+// for (let w = 1; w < 6; w++) {
+//     console.log(w);
+// }
+
+// let num = 3;
+//         while (num) {
+//             console.log(num);
+//             num -= 1;
+//         }
+
+
+        //  for (let number = 0; number < 5; number++) {
+        //      console.log(`Number ${number}`);
+        //  }
+
+        // let number = 0
+        // while (number < 5) {
+        //     console.log(`Number ${number}`) 
+        //     number++
+        // }
+
+
+        // for (let index = 0; index < 1000; index++) {
+        //     // if (b) {
+        //     b=Number(prompt('What it the avarage students mark?'))
+        //     console.log(b)
+        //     if (b<7) {break}
+        // // }  
+        // // else {console.log(enter valid number);
+        // // }
+        // }
+
+
+        for (let i = 0; i < 1000; i++) {
+            
+            if (i % 2 !== 0) {
+                console.log(i);
+            }
         }
-    }
