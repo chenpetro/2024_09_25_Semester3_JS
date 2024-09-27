@@ -37,7 +37,7 @@
 //     `
 // }
 
-
+ 
 // for (let index = 1; index < 11; index++) {
 //      console.log(`1*${index}=${index}`) 
 //     }
@@ -47,9 +47,18 @@
 //         console.log(`5*${index}=${result}`) 
 //        }
 
-       for (let i = 0; i <= 10; i += 1) {
-        console.log(i)
-        if (i === 5) {
+    //    for (let i = 0; i <= 10; i += 1) {
+    //     console.log(i)
+    //     if (i === 5) {
+    //         break;
+    //     }
+    // }
+
+
+    for (let i = 0; i <= 50; i += 1) {
+        console.log(`this is my ${i} excercise(s)`);
+
+        if (i === 25) {
             break;
         }
     }
