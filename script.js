@@ -130,9 +130,38 @@
         // }
 
 
-        for (let i = 0; i < 1000; i++) {
+        // for (let i = 0; i < 1000; i++) {
             
-            if (i % 2 !== 0) {
-                console.log(i);
-            }
-        }
+        //     if (i % 2 !== 0) {
+        //         console.log(i);
+        //     }
+        // }
+
+
+
+//         let num = Number(prompt('Enter number > 100'))
+// while (num<=100) {
+//     num = Number(prompt('Enter number > 100'))
+// console.log(num);
+//          }
+
+
+
+// let totalSalary = 0
+// let employees = Number(prompt('Enter number of employees'))
+// for (let index = 0; index < employees; index++) {
+//     totalSalary = totalSalary + (Math.floor(Math.random() * (1000 - 500 + 1)) + 500);
+// }
+// alert(`Total salary = ${totalSalary}`)
+
+
+
+let min = Number(prompt('Enter min number'))
+let max = Number(prompt('Enter max number'))
+let sum = 0
+for (let index = min; index <= max; index++){
+   if (index % 2 == 0){
+    sum=sum+index
+   }
+}
+alert(`Sum of odd numbers in range from ${min} till ${max} = ${sum}`)
